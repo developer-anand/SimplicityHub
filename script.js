@@ -46,6 +46,7 @@
 // }
 
 // Add functionality to the contact form
+AOS.init();
 const contactForm = document.getElementById("contact-form");
 const messageOutput = document.getElementById("message-output");
 

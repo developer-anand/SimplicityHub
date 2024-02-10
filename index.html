@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SimplicityHub - Consultancy Services</title>
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Welcome to SimplicityHub</h1>
+      <h1>SimplicityHub</h1>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -16,15 +20,15 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#consultants">Consultants</a></li>
           <li><a href="#resources">Resources</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#contact-form-section">Contact Us</a></li>
         </ul>
       </nav>
     </header>
-    <div id="home" class="back">
+    <div id="home" class="back" data-aos="flip-left">
       <div class="overlay"></div>
     </div>
     <main>
-      <section id="home">
+      <section id="home" data-aos="flip-left">
         <h2>Welcome to SimplicityHub</h2>
         <p>
           We offer expert consultancy services to streamline your business
@@ -33,7 +37,7 @@
         <a href="#services" class="cta-button">Explore Our Services</a>
       </section>
 
-      <section id="about">
+      <section id="about" data-aos="flip-left">
         <h2>About Us</h2>
         <p>
           Welcome to SimplicityHub, your trusted partner in business consultancy
@@ -64,7 +68,12 @@
         </p>
       </section>
 
-      <section id="services">
+      <section
+        id="services"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <h2>Our Services</h2>
         <p>
           At SimplicityHub, we offer a comprehensive range of consultancy
@@ -104,12 +113,7 @@
         </div>
       </section>
 
-      <section id="consultants">
-        <h2>Our Consultants</h2>
-        <p>
-          Meet our team of experienced consultants who are ready to assist you
-          in achieving your business goals.
-        </p>
+      <section id="consultants" data-aos="fade-up">
         <h2>Our Consultants</h2>
         <p>
           Meet the talented individuals who make up the SimplicityHub team. Our
@@ -118,7 +122,6 @@
         </p>
 
         <div class="consultant">
-          <!-- <img src="consultant1.jpg" alt="Consultant 1" /> -->
           <h3>John Doe</h3>
           <p>
             With over 10 years of experience in business strategy and management
@@ -128,7 +131,6 @@
         </div>
 
         <div class="consultant">
-          <!-- <img src="consultant2.jpg" alt="Consultant 2" /> -->
           <h3>Jane Smith</h3>
           <p>
             Jane is a seasoned HR consultant with a strong background in talent
@@ -139,7 +141,6 @@
         </div>
 
         <div class="consultant">
-          <!-- <img src="consultant3.jpg" alt="Consultant 3" /> -->
           <h3>Michael Johnson</h3>
           <p>
             Michael is an expert in financial analysis and strategic planning.
@@ -149,50 +150,42 @@
         </div>
       </section>
 
-      <section id="resources">
+      <section id="resources" data-aos="fade-up">
         <h2>Resources</h2>
         <p>
-          Explore our blog, download whitepapers, and attend webinars to gain
-          valuable insights into business management.
+          Explore our collection of resources designed to help you succeed in
+          business.
         </p>
 
-        <section id="resources">
-          <h2>Resources</h2>
+        <div class="resource">
+          <h3>Blog</h3>
           <p>
-            Explore our collection of resources designed to help you succeed in
-            business.
+            Stay informed with our latest articles on business strategy,
+            management tips, and industry insights.
           </p>
+          <a href="" class="btn">Read More</a>
+        </div>
 
-          <div class="resource">
-            <h3>Blog</h3>
-            <p>
-              Stay informed with our latest articles on business strategy,
-              management tips, and industry insights.
-            </p>
-            <a href="" class="btn">Read More</a>
-          </div>
+        <div class="resource">
+          <h3>Whitepapers</h3>
+          <p>
+            Download our whitepapers for in-depth analysis and research on key
+            business topics.
+          </p>
+          <a href="" class="btn">View Whitepapers</a>
+        </div>
 
-          <div class="resource">
-            <h3>Whitepapers</h3>
-            <p>
-              Download our whitepapers for in-depth analysis and research on key
-              business topics.
-            </p>
-            <a href="" class="btn">View Whitepapers</a>
-          </div>
-
-          <div class="resource">
-            <h3>Webinars</h3>
-            <p>
-              Join our webinars to learn from industry experts and gain valuable
-              insights into business management.
-            </p>
-            <a href="" class="btn">Register Now</a>
-          </div>
-        </section>
+        <div class="resource">
+          <h3>Webinars</h3>
+          <p>
+            Join our webinars to learn from industry experts and gain valuable
+            insights into business management.
+          </p>
+          <a href="" class="btn">Register Now</a>
+        </div>
       </section>
 
-      <section id="contact-form-section">
+      <section id="contact-form-section" data-aos="flip-up">
         <h2>Contact Form</h2>
         <form id="contact-form">
           <label for="name">Name:</label>
@@ -221,7 +214,7 @@
         </ul>
       </nav>
     </footer>
-
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
