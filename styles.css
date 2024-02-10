@@ -1,0 +1,225 @@
+/* Global Styles * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+} */
+
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+} */
+
+/* Header Styles */
+/* header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+} */
+
+/* nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+} */
+
+/* .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 6rem;
+  background: #222;
+  z-index: 100000;
+  position: fixed;
+}
+
+.nav h2 {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+#item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#item li {
+  list-style: none;
+  padding-right: 50px;
+}
+
+#item li a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#item li a:hover,
+#item .icon i:hover {
+  color: #ff5733;
+  cursor: pointer;
+} */
+
+/* Main Content Styles */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+
+  bottom: 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.back {
+  background-image: url(utilities/campaign-creators-gMsnXqILjp4-unsplash.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  z-index: -1;
+}
+
+.back .overlay {
+  /* background: #171819; */
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+}
+
+/* Main Content Styles */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* .contact {
+  /* padding: 8rem; */
+/* display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+} */
+
+/* .contact {
+  width: 45%;
+} */
+
+/* .contact h2 {
+  font-size: 2rem;
+  color: #212529;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
+
+/* .contact .form .submit input,
+.contact .form .submit textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #95a5a6;
+  outline: none;
+  margin: 13px 0;
+}
+
+.contact .form .submit input:focus,
+.contact .form .submit textarea:focus {
+  border: 1px solid #111;
+}
+
+.contact .form .submit a {
+  width: 100%;
+  text-decoration: none;
+  padding: 15px 0;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 13px 0;
+} */
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
